@@ -2,7 +2,7 @@ let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()
 
 let charactersLength = characters.length;
 
-for(let i = 0; i < 10; i++){
+for(let i = 0; i < 25; i++){
    let result = characters.charAt(Math.floor(Math.random() * charactersLength));
    console.log(result)
 }
